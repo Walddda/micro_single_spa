@@ -1,0 +1,17 @@
+cd angular
+npm run serve:single-spa:angular-cw
+
+cd homepage
+npm start
+
+cd navbar
+npm start
+
+cd react
+npm start
+
+cd root-config
+npm start
+
+cd vue
+npm run serve

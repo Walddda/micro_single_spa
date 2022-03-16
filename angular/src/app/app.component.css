@@ -1,0 +1,10 @@
+.looser {
+  filter: grayscale(100%);
+}
+.winner {
+  border: green solid 5px;
+}
+.space {
+  display: inline-block;
+  width: 200px;
+}

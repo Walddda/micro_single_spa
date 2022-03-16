@@ -1,0 +1,7 @@
+.looser {
+  filter: grayscale(100%);
+}
+
+.winner {
+  border: solid 5px green;
+}

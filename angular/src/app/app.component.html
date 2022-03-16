@@ -1,0 +1,8 @@
+<h1>Edit</h1>
+<li *ngFor="let game of games">
+  <img src="{{game.url1}}" width="200" class="{{game.winner == 1 ? 'winner' : 'looser'}}"/>
+  <img src={{game.url2}} width="200" class="{{game.winner == 2 ? 'winner' : 'looser'}}"/>
+  {{game.winner == 3 ? ' nobody won' : ' Winner' + game.winner}}
+  <span class="space"></span>
+  <button (click)="deleteGame(game.id)">Delete</button>
+</li>
